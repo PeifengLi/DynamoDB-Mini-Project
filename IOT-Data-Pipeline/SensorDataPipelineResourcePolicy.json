@@ -1,0 +1,22 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:*",
+                "datapipeline:*",
+                "dynamodb:*",
+                "ec2:Describe*",
+                "elasticmapreduce:AddJobFlowSteps",
+                "elasticmapreduce:Describe*",
+                "elasticmapreduce:ListInstance*",
+                "elasticmapreduce:ModifyInstanceGroups",
+                "s3:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
