@@ -50,7 +50,7 @@ $ aws s3 mb ${BUCKET_NAME}
 *Note: Also create a bucket for the DynamoDB data and a bucket for the execution logs.*
 
 ### 2.2 Setting up IAM Roles and Policy for AWS Data Pipeline
-According to the [guide](https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-iam-roles.html.Links to an external site.), go to this link and follow the directions for creating the roles manually.  Here is a description:
+According to the [guide](https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-iam-roles.html), go to this link and follow the directions for creating the roles manually.  Here is a description:
 
 #### Setting up Policy
 - Navigate into IAM Management Console and click into policy
